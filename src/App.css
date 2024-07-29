@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  margin: 0;
+  background-color: rgb(32, 32, 32);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App .body-c {
+  background-color: rgb(32, 32, 32);
+  height: 70%;
+  width: 73%;
+  border: 1px solid rgb(90, 90, 90);
+  margin-top: 3%;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.App .body-c .body-c1 {
+  height: 30px;
+  color: white;
+  border-bottom: 1px solid rgb(90, 90, 90);
+  display: flex;
+  align-items: center;
+}
+
+.App .body-c .body-c1 .dot {
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid rgb(90, 90, 90);
+}
+
+h5 {
+  margin: 0;
+}
+
+nav {
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  height: 60%;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(90, 90, 90);
+  width: 70%;
+  border-radius: 6px;
+  align-items: center;
+  color: white;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  padding: 2px 10px;
+  border: 1px solid rgb(90, 90, 90);
+  background-color: rgba(255, 255, 255, 0.034);
+}
